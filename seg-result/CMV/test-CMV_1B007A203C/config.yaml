@@ -1,0 +1,60 @@
+title: test-CMV
+project_dir: '/home/yangzhencheng/CMV/seg-result/CMV'
+seed: 47
+
+experiment:
+  name: Generation
+
+data_loader:
+  dataset: /home/yangzhencheng/IAN/ContMC/npy
+  training_set: null # null, generated
+  preprocessing: configs/preprocessing.yaml
+  augmentations: configs/augmentations.yaml
+  background_suppression: 0
+  batch_size: 2
+  labels:
+    BACKGROUND: 0
+    INSIDE: 1
+  num_workers: 0
+  patch_shape:
+  - 120
+  - 120
+  - 120
+  resize_shape:
+  - 266
+  - 330
+  - 534
+  sampler_type: grid
+  grid_overlap: 0
+  volumes_max: 2100
+  volumes_min: 0
+
+model:
+  name: CMV
+
+loss:
+  name: Jaccard
+
+lr_scheduler:
+  name: MultiStepLR
+  milestones:
+  - 20
+  - 40
+  - 60
+  - 80
+  - 100
+  - 120
+  - 140
+  factor: 0.8
+
+optimizer:
+  learning_rate: 0.1
+  name: SGD
+
+trainer:
+  reload: True
+  checkpoint: '/home/yangzhencheng/CMV/seg-result/CMV/checkpoints/best.pth'
+  do_train: False
+  do_test: True
+  do_inference: False
+  epochs: 150

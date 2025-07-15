@@ -1,0 +1,8 @@
+2025-06-26 12:02:14,514:INFO:Testing the model...
+2025-06-26 12:02:14,514:INFO:Loading checkpoint from /home/yangzhencheng/CMV/seg-result/CMV/checkpoints/best.pth
+2025-06-26 12:37:50,614:INFO:
+Test results (Overall) - IoU: 0.8383117238680522, Dice: 0.9116488893826803, Hausdorff Distance: 14.630013942718506, Hausdorff Distance 95: 2.842302505175273, Smoothness: 1.8816905639444788, Small Volume Detection: 0.0
+2025-06-26 12:37:50,614:INFO:
+Test results (Right) - IoU: 0.8212997953097025, Dice: 0.9004556059837341, Hausdorff Distance: 12.303432782491049, Hausdorff Distance 95: 2.983621422449748, Smoothness: 1.7305770656093955, Small Volume Detection: 0.0
+2025-06-26 12:37:50,614:INFO:
+Test results (Left) - IoU: 0.8529719193776448, Dice: 0.9200664321581523, Hausdorff Distance: 8.45746208826701, Hausdorff Distance 95: 2.268998726209005, Smoothness: 2.039502087670068, Small Volume Detection: 0.0
