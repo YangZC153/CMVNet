@@ -1,4 +1,4 @@
-# CMVNet: Centerline-Guided Multi-View Network for Continuous Mandibular Canal Segmentation
+# CMVNet: Centerline-Guided Multi-View Network for Continuous Mandibular Canal Segmentation in CBCT
 
 by Zhencheng Yang, Yuchen Zheng, Yan Yang, Min Tan, Jiajun Ding, and Fan Yang.
 
@@ -30,7 +30,7 @@ If the code or data is useful for your research, please consider citing:
 
 ```bibtex
 @article{XXXXXXX,
-    title={CMVNet: Centerline-Guided Multi-View Network for Continuous Mandibular Canal Segmentation},
+    title={CMVNet: Centerline-Guided Multi-View Network for Continuous Mandibular Canal Segmentation in CBCT},
     author={Yang, Zhencheng and Zheng, Yuchen and Yang, Yan and Tan, Min and Ding, Jiajun and Yang, Fan},
     journal={XXXXXX},
     volume={XX},
