@@ -4,7 +4,7 @@ by Zhencheng Yang, Yuchen Zheng, Yan Yang, Min Tan, Jiajun Ding, and Fan Yang.
 
 ### Introduction
 
-This repository is for our paper 'CMVNet: Centerline-Guided Multi-View Network for Continuous Mandibular Canal Segmentation'. 
+This repository is for our paper 'CMVNet: Centerline-Guided Multi-View Network for Continuous Mandibular Canal Segmentation in CBCT'. 
 
 **Note: Our dataset and code are currently being refined and will be available soon.**
 
