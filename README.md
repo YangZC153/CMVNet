@@ -20,7 +20,7 @@ We introduce the ContMC dataset with 100 CBCT cases emphasizing anatomical conti
 
 We have released the CBCT data and GT annotation of ContMC. If you want to apply for these data, please:
 
-1. **Download the Data Access Agreement**: [Download Registration Form](https://github.com/YangZC153/CMVNet/releases/download/data-v1.0/data.registration.pdf)
+1. **Download the Data Access Agreement**: [Download Registration Form](https://github.com/YangZC153/CMVNet/releases/download/ContMC/data.registration.pdf)
 2. Complete all required information and sign the form
 3. Send the signed form to Yuchen Zheng (zycscola@gmail.com)
 4. You will receive the download link after the registration form is reviewed and approved
