@@ -9,8 +9,8 @@ This repository is for our paper 'CMVNet: Centerline-Guided Multi-View Network f
 **Note: Our dataset and code are currently being refined and will be available soon.**
 
 ### Train and Test
-1. Write the full path of the CBCT data in the `configs/CMV_config`.
-2. Run the model: `python main_CMV.py`.
+1. Write the full path of the CBCT data in the `configs/CMVNet_config`.
+2. Run the model: `python main_CMVNet.py`.
 
 ### Dataset - ContMC
 
