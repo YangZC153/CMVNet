@@ -6,8 +6,6 @@ by Zhencheng Yang, Yuchen Zheng, Yan Yang, Min Tan, Jiajun Ding, and Fan Yang.
 
 This repository is for our paper 'CMVNet: Centerline-Guided Multi-View Network for Continuous Mandibular Canal Segmentation in CBCT'. 
 
-**Note: Our dataset and code are currently being refined and will be available soon.**
-
 ### Train and Test
 1. Write the full path of the CBCT data in the `configs/CMVNet_config`.
 2. Run the model: `python main_CMVNet.py`.
@@ -38,13 +36,12 @@ This code is inspired by the AImageLab alveolar_canal. We thank Marco Cipriano e
 If the code or data is useful for your research, please consider citing:
 
 ```bibtex
-@article{XXXXXXX,
-    title={CMVNet: Centerline-Guided Multi-View Network for Continuous Mandibular Canal Segmentation in CBCT},
-    author={Yang, Zhencheng and Zheng, Yuchen and Yang, Yan and Tan, Min and Ding, Jiajun and Yang, Fan},
-    journal={XXXXXX},
-    volume={XX},
-    number={XX},
-    pages={XX--XX},
-    year={2025},
-    publisher={XXXX}
+@article{yang2026cmvnet,
+  title={CMVNet: Centerline-guided multi-view network for continuous mandibular canal segmentation in CBCT},
+  author={Yang, Zhencheng and Zheng, Yuchen and Yang, Yan and Tan, Min and Ding, Jiajun and Yang, Fan},
+  journal={Biomedical Signal Processing and Control},
+  volume={119},
+  pages={109950},
+  year={2026},
+  publisher={Elsevier}
 }
